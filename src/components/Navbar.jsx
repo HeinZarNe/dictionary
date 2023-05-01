@@ -29,19 +29,7 @@ const Navbar = () => {
         </IconContext.Provider>
       </div>
       <div className="flex gap-4 flex-row justify-center items-center">
-        {/* Font Changing */}
-        <div className="font-bold ">
-          <select
-            name="pets"
-            id="pet-select"
-            className="outline-none outline-offset-0 focus-visible:outline-none dark:bg-black"
-          >
-            <option value="">Font</option>
-            <option value="dog">Dog</option>
-          </select>
-        </div>
-
-        <div className="flex gap-2 flex-row justify-center items-center border-s-2 border-black dark:border-white ps-3">
+        <div className="flex gap-2 flex-row justify-center items-center ">
           {/* Theme Changing */}
           <Switch
             onChange={() => handleChange()}
